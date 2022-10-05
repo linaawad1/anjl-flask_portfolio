@@ -4,7 +4,7 @@ services:
                 image: flask_linaawad_v1
                 build: .
                 ports:
-                        - "1205:8080"
+                        - "1247:8080"
                 volumes:
                         - persistent_volume:/app/volumes
 volumes:
